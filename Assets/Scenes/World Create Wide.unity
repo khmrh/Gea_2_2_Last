@@ -1344,7 +1344,7 @@ Transform:
   m_GameObject: {fileID: 456421541}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15, y: 30, z: 10}
+  m_LocalPosition: {x: 15, y: 38, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1385,7 +1385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  jumpPower: 5
+  jumpPower: 4
   gravity: -9.8
   mouseSensitivity: 3
 --- !u!143 &456421545
@@ -1871,10 +1871,10 @@ MonoBehaviour:
     type: 3}
   blockPrefabDiamond: {fileID: 1086865250227001485, guid: 901deb814455dfb4db565a318b5ea4f8,
     type: 3}
-  width: 55
-  depth: 55
-  maxHeight: 25
-  waterLevel: 4
+  width: 75
+  depth: 75
+  maxHeight: 30
+  waterLevel: 6
   treeLevel: 6
   IronLevel: 10
   diamondLevel: 6
@@ -1888,7 +1888,7 @@ Transform:
   m_GameObject: {fileID: 1083962956}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.22035125, y: 0.92028093, z: -0.36131403}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

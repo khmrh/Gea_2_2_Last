@@ -1,5 +1,6 @@
 using System.Xml.Serialization;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PLayerController : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class PLayerController : MonoBehaviour
     public float mouseSensitivity = 3f;
 
     float xRotation = 0f;
+
 
     CharacterController controller;
     Transform cam;
@@ -29,6 +31,15 @@ public class PLayerController : MonoBehaviour
     {
         HandleLook();
         HandleMove();
+        Gameend();
+    }
+
+    void Gameend()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            SceneManager.LoadScene("Main");
+        }
     }
 
     void HandleMove()
